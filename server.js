@@ -24,7 +24,7 @@ const db = mysql.createConnection(
   console.log('Connected to the election database.')
 );
 
-//***************get all rows(people) in candidates table
+//****************get all rows(people) in candidates table
 //db.query(`SELECT * FROM candidates`, (err, rows) => {
   //console.log(rows);
 //});
